@@ -1,0 +1,37 @@
+:root {
+  font-size: 10px; }
+
+body {
+  padding: 2rem 10rem;
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  height: 80vh;
+  width: 100%; }
+  header .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    header .navigation__logo-box {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #5550C6; }
+    header .navigation .navigation__list {
+      display: flex;
+      list-style: none; }
+    header .navigation__item {
+      margin-right: 2rem; }
+    header .navigation__link {
+      color: #000;
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-decoration: none; }
+    header .navigation--button {
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #fff;
+      border: 1px solid #5550C6;
+      padding: 0.7rem 1.4rem;
+      border-radius: 1.5rem;
+      background: #5550C6; }
