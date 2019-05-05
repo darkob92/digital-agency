@@ -5,6 +5,21 @@ $default-font: 'Montserrat', sans-serif;
 }
 
 body {
-  padding: 2rem 10rem;
+  padding: 2rem 20rem;
   font-family: $default-font;
+}
+
+.btn {
+  &,
+  &:link, 
+  &:visited {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #5550C6;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background: #5550C6;
+  }
 }
