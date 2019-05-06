@@ -2,8 +2,9 @@
   font-size: 10px; }
 
 body {
-  padding: 2rem 20rem;
-  font-family: "Montserrat", sans-serif; }
+  /*padding: 2rem 20rem; */
+  font-family: "Montserrat", sans-serif;
+  margin: 0; }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -17,7 +18,8 @@ body {
 
 header {
   height: 80vh;
-  width: 100%; }
+  width: 70%;
+  margin: 2rem auto; }
   header .navigation {
     display: flex;
     justify-content: space-between;
@@ -53,3 +55,20 @@ header {
       header .banner__video video {
         width: 100%;
         height: 70%; }
+
+main {
+  height: 80vh;
+  width: 80%;
+  margin: 10rem auto; }
+
+.feature-box {
+  width: 100%; }
+  .feature-box h3 {
+    text-align: center;
+    font-size: 2.2rem; }
+  .feature-box__img {
+    display: block;
+    margin: 5rem auto;
+    height: 70vh;
+    width: 80%;
+    border-radius: 1.5rem; }

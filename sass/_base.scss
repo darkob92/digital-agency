@@ -1,12 +1,14 @@
 $default-font: 'Montserrat', sans-serif;
+$primary-color: #5550C6;
 
 :root {
   font-size: 10px;
 }
 
 body {
-  padding: 2rem 20rem;
+  /*padding: 2rem 20rem; */
   font-family: $default-font;
+  margin: 0;
 }
 
 .btn {
@@ -17,9 +19,9 @@ body {
     font-size: 1.4rem;
     font-weight: 700;
     color: #fff;
-    border: 1px solid #5550C6;
+    border: 1px solid $primary-color;
     padding: 1rem 2rem;
     border-radius: 2rem;
-    background: #5550C6;
+    background: $primary-color;
   }
 }
