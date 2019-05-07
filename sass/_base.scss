@@ -25,3 +25,30 @@ body {
     background: $primary-color;
   }
 }
+
+.title {
+  &--primary {
+    font-size: 3rem;
+  }
+
+  &--secondary {
+    font-size: 1.6rem;
+    font-weight: 400;
+    width: 70%;
+    margin-bottom: 5rem;
+  }
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.line {
+  display: block;
+  height: .5rem;
+  width: 25%;
+  background: $primary-color;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+}

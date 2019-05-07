@@ -16,6 +16,27 @@ body {
   border-radius: 2rem;
   background: #5550C6; }
 
+.title--primary {
+  font-size: 3rem; }
+
+.title--secondary {
+  font-size: 1.6rem;
+  font-weight: 400;
+  width: 70%;
+  margin-bottom: 5rem; }
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5; }
+
+.line {
+  display: block;
+  height: .5rem;
+  width: 25%;
+  background: #5550C6;
+  margin-bottom: 3rem;
+  border-radius: 5px; }
+
 header {
   height: 80vh;
   width: 70%;
@@ -43,13 +64,6 @@ header {
     display: flex; }
     header .banner__intro {
       width: 50%; }
-      header .banner__intro h1 {
-        font-size: 3rem; }
-      header .banner__intro h4 {
-        font-size: 1.6rem;
-        font-weight: 400;
-        width: 70%;
-        margin-bottom: 5rem; }
     header .banner__video {
       width: 50%; }
       header .banner__video video {
@@ -62,13 +76,10 @@ main {
   margin: 10rem auto; }
 
 .feature-box {
-  width: 100%; }
-  .feature-box h3 {
-    text-align: center;
-    font-size: 2.2rem; }
+  margin: 10rem auto;
+  width: 90%;
+  display: flex; }
   .feature-box__img {
-    display: block;
-    margin: 5rem auto;
-    height: 70vh;
-    width: 80%;
-    border-radius: 1.5rem; }
+    width: 50%;
+    height: 70%;
+    border-radius: 15px; }

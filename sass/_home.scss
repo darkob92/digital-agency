@@ -5,18 +5,13 @@ main {
 }
 
 .feature-box {
-  width: 100%;
-
-  h3 {
-    text-align: center;
-    font-size: 2.2rem;
-  }
+  margin: 10rem auto;
+  width: 90%;
+  display: flex;
 
   &__img {
-    display: block;
-    margin: 5rem auto;
-    height: 70vh;
-    width: 80%;
-    border-radius: 1.5rem;
+    width: 50%;
+    height: 70%;
+    border-radius: 15px;
   }
 }
